@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212457472699342008}
   - component: {fileID: 50900729451722776}
   - component: {fileID: 58309376974159130}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WheelFront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 212269020624372720}
   - component: {fileID: 50706657390865426}
   - component: {fileID: 58164973578653694}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: WheelBack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 4059837780887432}
   - component: {fileID: 212031934485916990}
   - component: {fileID: 60258410274023832}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 235617597861025846}
   - component: {fileID: 235167996032900468}
   - component: {fileID: 114631057548398304}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -353,9 +353,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80aed37f9b74ba5488ba5b0da8d5de35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllerNumber: 1
   speed: 300
+  rotateSpeed: 0.2
   backWheel: {fileID: 235617597861025846}
   frontWheel: {fileID: 235167996032900468}
+  myRigdbody2D: {fileID: 0}
 --- !u!212 &212031934485916990
 SpriteRenderer:
   m_ObjectHideFlags: 1
